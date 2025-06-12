@@ -1,0 +1,13 @@
+#new{
+            font-family: cursive;
+        }
+        h1{
+            background-color: antiquewhite;
+        }
+        p:hover{
+            color: aquamarine;
+            
+        }
+.border{
+    border: 2px solid burlywood;
+}
