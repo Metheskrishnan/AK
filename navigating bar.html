@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.flex-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(220, 210, 210);
+    height: 60px;
+    margin-bottom: 30px;
+}
+.flex-container .brand {
+    background: none;
+    border: none;
+    color: rgb(242, 16, 16);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    cursor: default;
+}
+.flex-container div:not(.brand) {
+    background-color: rgb(145, 127, 127);
+    border: 2px solid rgb(112, 12, 12);
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+.flex-container div:not(.brand):hover {
+    background-color: #c2bdbd;
+}
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="brand">METHES KRISHNAN</div>
+    <div>Home</div>
+    <div>Features</div>
+    <div>Services</div>
+    <div>Our Work</div>
+    <div>About</div>
+    <div>Contact</div>
+</div>
+</body>
+</html>
