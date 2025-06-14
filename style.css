@@ -1,39 +1,64 @@
-.line{
-            background-color: beige;
-        }
-        #new{
-            font-family: 'Courier New', Courier, monospace;
-        }
-        h3{
-            background-color: aqua;
-        }
-        .border{
-        border: 2px solid skyblue
-        }
-        .flex-container{
-            display:flex;
-            justify-content: space-around;
-            align-items: flex-end;
-            background-color: lightseagreen;
-            height: 100vh;
-        }
-        .flex-container div{
-            background-color: lightgrey;
-            border: 2px solid brown;
-            height: 100px ;
-            width: 100px
-        }
-        .item2{
-            flex-shrink: 0;
-        }
-        .grid-container{
-            display: grid;
-            grid-template-rows: 100px 100px 100px;
-            grid-template-columns: 100px 100px 100px;
-        }
-        .grid-container div{
-            background-color: lightcoral;
-            border: 2px solid darkred;
-            height: 100px;
-            width: 100px;
-        }
+.line {
+    background-color: beige;
+}
+
+#new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    background-color: aqua;
+}
+
+.border {
+    border: 2px solid skyblue
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: lightseagreen;
+    height: 100vh;
+}
+
+.flex-container div {
+    background-color: lightgrey;
+    border: 2px solid brown;
+    height: 100px;
+    width: 100px
+}
+
+.item2 {
+    flex-shrink: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+.grid-container div {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-column-start: 4;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
